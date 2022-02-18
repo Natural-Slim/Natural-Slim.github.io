@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$id": "https://natural-slim.github.io/schemas/json_themes/image_checkbox.json",
+    "$comment": "",
+    "type": "object",
+    "title": "ImageCheckbox",
+    "additionalProperties": false,
+    "required": [
+        "image"
+    ],
+    "properties": {
+        "image": {
+            "type": "string"
+        },
+        "isSelected": {
+            "type": "boolean"
+        }
+    }
+}
